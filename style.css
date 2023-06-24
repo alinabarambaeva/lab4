@@ -7,9 +7,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "roboto", sans-serif;
+  font-family: Courier New, monospace;
   font-size: 16px;
-  background-color: #d5badbeb;
+  background-image: url("фон.jpg");
+  background-color: #ddba89eb;
   color: #453751;
   display: flex;
   width: 100%;
@@ -20,7 +21,7 @@ body {
 .form {
   background-color: #ffff;
   box-shadow: 10px 10px 4px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+  border-radius:  40% 20% / 10% 40%;
   display: inline-block;
   width: 1028px;
   padding: 44px;
@@ -33,6 +34,7 @@ body {
   line-height: 28px;
   color: #453751;
   margin: 0;
+  text-align: center;
 }
 .form__header hr {
   background: #d7dbdf;
@@ -56,7 +58,9 @@ body {
     height: 140px !important;
     display: inline-block;
   }
+
 .form__control, select{
+  font-family: Courier New, monospace;
   background: #ffffff;
   border: 1px solid #d2d6db;
   border-radius: 6px;
@@ -70,16 +74,15 @@ body {
   margin-bottom: 24px;
 }
 
-
 .form__submit {
+  font-family: Courier New, monospace;
   padding: 16px 24px;
   font-weight: 500;
   color: #ffff;
   border: 1px solid #d2d6db;
-  background-color: #c750eb;
+  background-color: #ddba89eb;
   border-radius: 6px;
   display: flex;
   cursor: pointer;
   margin-left: auto;
 }
-
